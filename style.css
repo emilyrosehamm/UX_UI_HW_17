@@ -1,40 +1,82 @@
+
+header {
+    background: linear-gradient(180deg, #1C063B 55.73%, rgba(28, 6, 59, 0.03) 100%);
+    height: 130px;
+    width: 1440px; 
+}
 .container{
     margin-left: auto;
     margin-right: auto;
     width: 1440px;
 }
 
-header {
-    background: linear-gradient(180deg, #1C063B 55.73%, rgba(28, 6, 59, 0.03) 100%);
-    height: 130px;
+/*body{
+    background-image: url(images/backgroundimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     width: 1440px;
-    text-align: center;
-    
+    height: 721px;
+}*/
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.navbutton {
+    text-decoration: none;
+    color: #F8F8F8;
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 53px;
+    padding: 53px;
 }
 .hero {
+    
     background-image: url(images/backgroundimage.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     height: 722px;
     width: 1440px;
+    margin-bottom: 60px;
+    display: inline-block;
 }
 .herotext {
     width: 715px;
     height: 366px;
-    left: 120px;
-    top: 220px;
+    padding-top: 192px;
+    padding-bottom: 163px;
+    display: inline-block;
+}
+.heroimage{
+    display: inline-block;
+    
+}
+.aboutme {
+    background-color: #1C063B;
+    width: 1440px;
+    height: 706px;
+    top: 780px;
+}
+.aboutmeleft{
+    width: 400px;
+    height: 510px;
+    top: 831px;
+    padding-right: 940px;
 }
 
-body{
-    background-color: #F8F8F8;
+.recentprojects{
+    background-color: #1C063B;
+    width: 1440px;
+    height: 950px;
+    top: 1546px;
 }
-
 
 h1{
     color: #FFFFFF;
     font-family:  'Nunito', sans-serif;
     font-size: 59px;
-    font-style: normal;
-
+    font-weight: 700;
+    padding-left: 100px;
 }
 
 h2{
@@ -42,16 +84,60 @@ h2{
     font-family:'Fredericka the Great', cursive;
     font-weight: 400px;
     font-size: 48px;
+    padding-left: 100px;
 }
 h3{
     color: white;
     font-family: 'Nunito', sans-serif;
     font-weight: 700px;
     font-size: 24px;
+    padding-left: 110px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-left: 100px;
+    font-weight: 400;
+}
+
+.button{
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
+    width: 295px;
+    text-align: center;
+    color: white;
+    outline: 2px solid white;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    
+}
+
+.whiteactive {
+
+    background: linear-gradient(227.36deg, #F2A2B8 18.34%, #5005F2 72%);
+    box-sizing: border-box;
+    color: #5005F2;
+
+}
+
+.break{
+    background-color: #F8F8F8;
+    width: 1440px;
+    height: 120px;
+    top: 2495px;
 }
 
 footer {
     background-color: #1C063B;
-    height: 305px;
+    height: 378px;
     width: 1440px;
+    top: 2584px;
+}
+footer p {
+    font-size: 10px;
+    font-family: 'Nunito', sans-serif;
+    color: #F8F8F8;
 }
