@@ -1,26 +1,19 @@
 
-header {
-    background: linear-gradient(180deg, #1C063B 55.73%, rgba(28, 6, 59, 0.03) 100%);
-    height: 130px;
-    width: 1440px; 
-}
 .container{
     margin-left: auto;
     margin-right: auto;
     width: 1440px;
 }
-
-/*body{
-    background-image: url(images/backgroundimage.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 1440px;
-    height: 721px;
-}*/
 .inline-block {
     display: inline-block;
     vertical-align: top;
+    
 }
+.logo {
+        padding-left: 520px;
+        padding-top: 24px;
+}
+
 .navbutton {
     text-decoration: none;
     color: #F8F8F8;
@@ -30,38 +23,45 @@ header {
     padding-left: 53px;
     padding: 53px;
 }
-.hero {
-    
+.headerhero {
     background-image: url(images/backgroundimage.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 722px;
+    height: 730px;
     width: 1440px;
     margin-bottom: 60px;
-    display: inline-block;
 }
 .herotext {
-    width: 715px;
+    width: 650px;
     height: 366px;
-    padding-top: 192px;
     padding-bottom: 163px;
-    display: inline-block;
+    float: left;
+    padding-left: 100px;
 }
-.heroimage{
-    display: inline-block;
-    
+.heroimage {
+    float: right;
+    padding-left: 10px;
+    padding-right: 100px; 
 }
 .aboutme {
     background-color: #1C063B;
     width: 1440px;
     height: 706px;
-    top: 780px;
+    padding-top: 37px;
+    padding-left: 100px;
+    padding-bottom: 154px;
+    display: inline-block;
+
 }
 .aboutmeleft{
     width: 400px;
-    height: 510px;
     top: 831px;
-    padding-right: 940px;
+    display: inline-block;
+
+}
+.tools{
+    display: inline-block;
+
 }
 
 .recentprojects{
@@ -69,6 +69,19 @@ header {
     width: 1440px;
     height: 950px;
     top: 1546px;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+    margin-top: 60px;
+}
+.workcontainer {
+    display: inline-block;
+    width: 400px;
+    height: 609px;
+    background-color: whitesmoke;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-left: 20px;
 }
 
 h1{
@@ -76,7 +89,7 @@ h1{
     font-family:  'Nunito', sans-serif;
     font-size: 59px;
     font-weight: 700;
-    padding-left: 100px;
+    
 }
 
 h2{
@@ -84,20 +97,26 @@ h2{
     font-family:'Fredericka the Great', cursive;
     font-weight: 400px;
     font-size: 48px;
-    padding-left: 100px;
+    
 }
 h3{
     color: white;
     font-family: 'Nunito', sans-serif;
     font-weight: 700px;
     font-size: 24px;
-    padding-left: 110px;
+    
+}
+h4{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
 }
 p{
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     color: #FFFFFF;
-    padding-left: 100px;
     font-weight: 400;
 }
 
@@ -123,21 +142,32 @@ p{
 
 }
 
-.break{
-    background-color: #F8F8F8;
-    width: 1440px;
-    height: 120px;
-    top: 2495px;
-}
+
 
 footer {
     background-color: #1C063B;
-    height: 378px;
+    height: 450px;
     width: 1440px;
     top: 2584px;
+    margin-top: 90px;
+   
 }
 footer p {
-    font-size: 10px;
+    font-size: 12px;
     font-family: 'Nunito', sans-serif;
     color: #F8F8F8;
+    text-align: center;
+    padding-top: 20px;
 }
+.footerheading {
+    padding-left: 100px;
+}
+
+.socialmedia{
+    align-items: center;
+}
+.social {
+    display: inline-block;
+    align-items: right;
+}
+
